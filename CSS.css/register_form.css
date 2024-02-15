@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit',sans-serif ;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+form {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 30px 30px;
+}
+
+head h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    outline: none;
+    padding: 13px;
+    margin-bottom: 4px;
+}
+
+input::placeholder {
+    font-style: italic;
+    font-weight: 300;
+    color: #ccc;
+}
+.bio{
+    margin: 10px 0;
+}
+button {
+    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #38a0dd;
+    border: none;
+    margin-top: 12px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    transform: 0.3s;
+    border-radius: 6px;
+} 
+.head p{
+    font-weight: 300;
+}
+.check{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
